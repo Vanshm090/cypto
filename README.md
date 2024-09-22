@@ -1,12 +1,5 @@
-## Crypto currency price trackiong app
-
-[Deployed URL](https://crypto-project-coin-gecko-tijg.vercel.app/)
-
- - Reusable components made using presenter container pattern
- - Custom hooks implemented
- - State management done by zustand
- - Consuming CoinGecko Free API
- - API requests are cached using React query
- - Suspense and error boundaries implemented
-<img width="1432" alt="Screenshot 2024-08-18 at 12 55 35 PM" src="https://github.com/user-attachments/assets/e5142715-b9b7-45a4-97b2-552b16ca4664">
-<img width="1414" alt="Screenshot 2024-08-18 at 12 55 47 PM" src="https://github.com/user-attachments/assets/fe89b19e-be17-47c6-8f17-027402922dae">
+- We need to use `https://www.coingecko.com/en/api/documentation` and build a crypto currency price tracker
+- we should be able to list multiple currencies and their price on the home page
+- Search functionality to search for a currency
+- If we click on a currency, then we should see the details of it and it's price history based on hours, days and years.
+- Support USD and INR pricing for listing

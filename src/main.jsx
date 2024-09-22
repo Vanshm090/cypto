@@ -1,16 +1,13 @@
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
-import { QueryClient, QueryClientProvider } from 'react-query'
-import { BrowserRouter } from 'react-router-dom';
+import './index.css';
 
-const queryClient = new QueryClient();
+import ReactDOM from 'react-dom/client';
+import { Provider } from 'react-redux';
+
+import App from './App.jsx';
+import store from './Redux/store.js';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-    <BrowserRouter>
-        <QueryClientProvider client={queryClient}>
-            <App />
-        </QueryClientProvider>
-    </BrowserRouter>
-    
+    <Provider store={store}>
+     <App />
+    </Provider>
 );

@@ -1,14 +1,12 @@
-import './App.css'
-import Routing from './components/Routing/Routing'
+import './App.css';
+
+import Home from './Pages/Home';
 
 function App() {
 
-
   return (
-    <>
-        <Routing />
-    </>
-  )
+    <Home />
+  );
 }
 
-export default App
+export default App;
